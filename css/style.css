@@ -61,8 +61,63 @@ button {
   cursor: pointer;
 }
 /* main banner section */
+
 .banner {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+.banner_content {
+  max-width: 500px;
+}
+.banner_content li {
+  list-style: circle;
+  margin-bottom: 18px;
+  font-weight: 500;
+  color: #534c64;
+  font-size: 1.125rem;
+}
+.banner_content,
+.banner_image {
+  width: 600px;
+}
+.main_title {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.goat {
+  font-size: 6.125rem;
+  font-weight: 800;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sign_in_btn {
+  display: inline-block;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: none;
+  outline: none;
+  padding: 1.3125rem 2.5rem;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 25px;
+}
+.go_btn {
+  display: inline-block;
+  border-radius: 48px;
+  background: #4ec5f7;
+  border: none;
+  outline: none;
+  padding: 1.3125rem 2.5rem;
+  font-size: 1.25rem;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #fff;
 }
