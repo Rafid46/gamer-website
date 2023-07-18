@@ -1,0 +1,28 @@
+@media screen and (max-width: 576px) {
+  nav,
+  .nav_logo,
+  .nav_item_conatainer {
+    flex-direction: column;
+  }
+
+  .nav_item_conatainer,
+  ul,
+  li {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0px;
+    padding: 10px;
+  }
+  img.nav_logo {
+    margin: 0 auto;
+    margin: 0px;
+  }
+  ul {
+    align-items: center;
+    margin-left: 50px;
+  }
+  li {
+    align-items: center;
+  }
+}
