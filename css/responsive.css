@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
   nav,
   .nav_logo,
-  .nav_item_conatainer {
+  .nav_item_conatainer,
+  banner {
     flex-direction: column;
   }
 
@@ -23,6 +24,11 @@
     margin-left: 50px;
   }
   li {
+    align-items: center;
+  }
+  banner {
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
   }
 }

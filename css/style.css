@@ -73,7 +73,10 @@ button {
 }
 
 /* main banner section */
-
+section {
+  background-image: url(../img/Group\ 14.png);
+  background-repeat: no-repeat;
+}
 .banner {
   display: flex;
   align-items: center;
