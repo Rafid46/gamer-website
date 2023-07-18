@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Poppins:wght@400;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.logo_container {
+  display: flex;
+  width: 50%;
+  /* border: 1px solid; */
+}
+nav .nav_logo {
+  width: 140px;
+  height: 90px;
+  margin-left: 240px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+nav li {
+  list-style: none;
+  color: #3c354f;
+}
+/* .follow_us_box {
+  display: flex;
+  justify-content: space-between;
+} */
+.nav_item_conatainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 240px;
+}
+.nav_item_conatainer li {
+  margin-right: 50px;
+}
+button {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 18px;
+}
