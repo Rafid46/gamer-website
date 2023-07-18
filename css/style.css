@@ -114,7 +114,7 @@ button {
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
   border: none;
   outline: none;
-  padding: 1.3125rem 2.5rem;
+  padding: 1.3125rem 3rem;
   font-size: 1.25rem;
   white-space: nowrap;
   cursor: pointer;
@@ -127,7 +127,7 @@ button {
   background: #4ec5f7;
   border: none;
   outline: none;
-  padding: 1.3125rem 2.5rem;
+  padding: 1.3125rem 3rem;
   font-size: 1.25rem;
   white-space: nowrap;
   cursor: pointer;
