@@ -169,6 +169,7 @@ button {
   gap: 20px;
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 200px;
 }
 /* figcaption {
   color: #534c64;
@@ -219,4 +220,69 @@ button {
 }
 .online_games_banner .card .hover_content h3 {
   text-transform: capitalize;
+}
+/* play instantly no download section */
+
+.play_titile {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.play_titile span {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play_description {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+}
+.play_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+img.cowboy {
+  width: 50%;
+}
+/* grid button section */
+.button_section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.all_buttons {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button_section .all_buttons p {
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+.all_buttons:hover {
+  width: 243px;
+  height: 80px;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 0, 162);
+  background: #d0cedc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button_section .all_buttons img {
+  padding-right: 10px;
 }
