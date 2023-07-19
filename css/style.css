@@ -73,7 +73,7 @@ button {
 }
 
 /* main banner section */
-section {
+.main_section {
   background-image: url(../img/Group\ 14.png);
   background-repeat: no-repeat;
 }
@@ -165,8 +165,10 @@ section {
 .online_games_banner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  justify-content: space-around;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto;
 }
 figcaption {
   color: #534c64;
