@@ -1,7 +1,8 @@
 @media screen and (max-width: 576px) {
   nav,
   .nav_logo,
-  .nav_item_conatainer {
+  .nav_item_conatainer,
+  .online_games_banner {
     flex-direction: column;
   }
 
