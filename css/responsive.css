@@ -81,12 +81,6 @@
 }
 
 /* Medium devices (tablets, 768px and up)  */
-
-/* @media (min-width: 768px) and (max-width: 991.98px) {
-} */
-/* responsive.css */
-
-/* Adjust the layout and styles for tablet devices */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
   footer {
     width: 100%;
