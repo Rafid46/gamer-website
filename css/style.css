@@ -71,6 +71,10 @@ button {
   padding-left: 10px;
   padding-top: 5px;
 }
+.follow_btn:hover .follow_text {
+  color: #6060f7;
+  transition: 0.3s ease;
+}
 
 /* main banner section */
 .main_section {
@@ -137,6 +141,14 @@ button {
   cursor: pointer;
   color: #fff;
 }
+.sign_in_btn:hover {
+  color: #4848f0;
+  transition: 0.3s ease;
+}
+.go_btn:hover {
+  color: #f01b5b;
+  transition: 0.3s ease;
+}
 
 /* online games section */
 .online_titles {
@@ -182,6 +194,9 @@ button {
 }
 .card_des {
   justify-self: flex-end;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
 }
 .card {
   width: 342px;
@@ -257,8 +272,8 @@ button {
   margin: 0 auto;
   margin-bottom: 200px;
 }
-img.cowboy {
-  width: 50%;
+.cowboy {
+  width: 50%;S
 }
 /* grid button section */
 .button_section {

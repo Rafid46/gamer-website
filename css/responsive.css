@@ -2,7 +2,8 @@
   nav,
   .nav_logo,
   .nav_item_conatainer,
-  .online_games_banner {
+  .online_games_banner,
+  .play_container {
     flex-direction: column;
   }
 
@@ -34,12 +35,96 @@
   }
   img,
   .banner_image {
-    width: 100%;
+    width: 500px;
   }
   .banner {
     width: 100%;
   }
   .banner_content {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .cowboy {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .button_section {
+    grid-template-columns: repeat(3, 3fr);
+    width: 100%;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+  .play_container {
+  }
+  .all_buttons {
+    width: 20px;
+    height: 20px;
+    gap: 10px;
+  }
+  .button_section .all_buttons img {
+    width: 40px;
+    height: 30px;
+  }
+  .button_section .all_buttons p {
+    font-size: 13px;
+  }
+  .list_names ul {
+    margin-left: 0;
+  }
+  .sign_in_btn {
+    margin-right: 5px;
+  }
+  .button_section .all_buttons img {
+    padding-right: 0px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)  */
+
+/* @media (min-width: 768px) and (max-width: 991.98px) {
+} */
+/* responsive.css */
+
+/* Adjust the layout and styles for tablet devices */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  footer {
+    width: 100%;
+  }
+  .online_games_banner {
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .button_section {
+    grid-template-columns: repeat(3, 3fr);
+  }
+  .all_buttons {
+    width: 20px;
+    height: 20px;
+    gap: 10px;
+  }
+  .button_section .all_buttons img {
+    width: 50px;
+    height: 40px;
+  }
+  .button_section .all_buttons p {
+    font-size: 20px;
+  }
+  .list_names ul {
+    margin-left: 0;
+  }
+  button.follow_btn {
+    flex-direction: column;
+  }
+  .banner_image {
+    margin-left: 70px;
+  }
+  .banner_content span {
+    font-size: 80px;
+  }
+  .sign_in_btn {
+    margin-bottom: 20px;
   }
 }
