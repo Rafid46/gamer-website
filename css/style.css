@@ -83,6 +83,7 @@ section {
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
+  margin-bottom: 56px;
 }
 .banner_content {
   max-width: 500px;
@@ -96,7 +97,7 @@ section {
 }
 .banner_content,
 .banner_image {
-  width: 600px;
+  width: 50%;
 }
 .main_title {
   color: #0b0223;
@@ -135,4 +136,40 @@ section {
   white-space: nowrap;
   cursor: pointer;
   color: #fff;
+}
+
+/* online games section */
+.online_titles {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.online_description {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+.funny {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.online_games_banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+figcaption {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
 }

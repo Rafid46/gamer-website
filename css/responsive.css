@@ -1,8 +1,7 @@
 @media screen and (max-width: 576px) {
   nav,
   .nav_logo,
-  .nav_item_conatainer,
-  banner {
+  .nav_item_conatainer {
     flex-direction: column;
   }
 
@@ -26,9 +25,20 @@
   li {
     align-items: center;
   }
-  banner {
-    flex-direction: column;
+  section,
+  .banner {
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+  }
+  img,
+  .banner_image {
+    width: 100%;
+  }
+  .banner {
+    width: 100%;
+  }
+  .banner_content {
+    width: 100%;
   }
 }
