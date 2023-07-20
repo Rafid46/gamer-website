@@ -1,3 +1,4 @@
+/* for mobile devices */
 @media screen and (max-width: 576px) {
   nav,
   .nav_logo,
@@ -35,7 +36,7 @@
   }
   img,
   .banner_image {
-    width: 500px;
+    width: 400px;
   }
   .banner {
     width: 100%;
@@ -85,12 +86,16 @@
   footer {
     width: 100%;
   }
+  .online_titles {
+    font-size: 25px;
+  }
   .online_games_banner {
     justify-content: space-evenly;
     flex-direction: column;
   }
   .button_section {
     grid-template-columns: repeat(3, 3fr);
+    margin: 0px;
   }
   .all_buttons {
     width: 20px;
@@ -102,7 +107,8 @@
     height: 40px;
   }
   .button_section .all_buttons p {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 100;
   }
   .list_names ul {
     margin-left: 0;
@@ -118,5 +124,47 @@
   }
   .sign_in_btn {
     margin-bottom: 20px;
+  }
+  .nav_item_conatainer {
+    display: flex;
+    justify-content: space-around;
+  }
+  img .nav_logo {
+    margin-left: 0px;
+    /* justify-content: space-around; */
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+    padding-top: 38px;
+    padding-bottom: 38px;
+    gap: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  banner {
+    margin: 0px;
+  }
+  .banner_image {
+    margin-left: 0px;
+  }
+  .follow_btn {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  footer {
+    padding-left: 0px;
+  }
+  footer ul > li {
+    padding-right: 20px;
+  }
+  footer ul li {
+    font-size: 10px;
   }
 }

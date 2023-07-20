@@ -182,11 +182,6 @@ button {
   margin: 0 auto;
   margin-bottom: 200px;
 }
-/* figcaption {
-  color: #534c64;
-  font-size: 20px;
-  font-weight: 500;
-} */
 .card_container {
   display: flex;
   flex-direction: column;
@@ -273,7 +268,7 @@ button {
   margin-bottom: 200px;
 }
 .cowboy {
-  width: 50%;S
+  width: 50%;
 }
 /* grid button section */
 .button_section {
